@@ -6,7 +6,7 @@ export function StudentsIndex(props) {
       <h1>Resumes List</h1>
       {props.students.map((student) => (
         <div key={student.id}>
-          <Link to="/students/show">
+          <Link to={"/students/" + student.id}>
             {student.first_name} {student.last_name}
           </Link>
         </div>
