@@ -1,6 +1,7 @@
 import { StudentsIndex } from "./StudentsIndex";
 import axios from "axios";
 import { useState, useEffect } from "react";
+import { StudentsShow } from "./StudentsShow";
 
 export function Home() {
   const studentsDummy = [
