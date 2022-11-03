@@ -6,10 +6,9 @@ export function StudentsIndex(props) {
       <h1>Resumes List</h1>
       {props.students.map((student) => (
         <div key={student.id}>
-          {/* Make <Link to=...> */}
-          <a href={student.resume_url}>
+          <Link to="/students/show">
             {student.first_name} {student.last_name}
-          </a>
+          </Link>
         </div>
       ))}
     </div>
