@@ -1,7 +1,9 @@
+import { ResumesIndex } from "./ResumesIndex";
+
 export function Home() {
   return (
     <div>
-      <h1>Welcome to React!</h1>
+      <ResumesIndex />
     </div>
   );
 }
