@@ -28,7 +28,7 @@ function App() {
       website_blog_url: "test.com",
       resume_url: "resume.com",
       github_url: "github.com/test",
-      photo: "...",
+      photo: "https://onlineimagetools.com/images/examples-onlineimagetools/color-grid.png",
     },
     {
       first_name: "Test",
