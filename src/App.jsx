@@ -52,7 +52,7 @@ function App() {
       <Footer />
       <Routes>
         <Route path="/" element={<Home students={studentsDummy} />} />
-        <Route path="/students/:student_id" element={<StudentsShow students={studentsDummy} />} />
+        <Route path="/students/:studentId" element={<StudentsShow students={studentsDummy} />} />
       </Routes>
     </BrowserRouter>
   );
