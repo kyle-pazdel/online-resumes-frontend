@@ -37,7 +37,9 @@ export function StudentsShow(props) {
       {/* <p>Name: {props.students[studentId - 1].capstones.name}</p> */}
       {/* <p>Description: {props.students[studentId - 1].capstones.description}</p> */}
       {/* <p>URL: {props.students[studentId - 1].capstones.url}</p> */}
-      {/* <p>Screenshot: {props.students[studentId - 1].capstones.screenshot}</p> */}
+      {/* <p>Screenshot: 
+      <p> <img src={props.students[studentId - 1].capstones.screenshot} /> </p>
+      </p> */}
 
       {/* Educations attributes */}
       {/* <p>Start date: {props.students[studentId - 1].educations.start_date}</p> */}
@@ -54,7 +56,7 @@ export function StudentsShow(props) {
       {/* <p>Details: {props.students[studentId - 1].experiences.details}</p> */}
 
       {/* Skills attributes */}
-      {/* <p>Photo: {props.students[studentId - 1].skills.map((skill) => {
+      {/* <p>{props.students[studentId - 1].skills.map((skill) => {
         Skill: {skill.skill_name}
       })</p> */}
     </div>
