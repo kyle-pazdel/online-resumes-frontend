@@ -1,6 +1,7 @@
 import { useParams } from "react-router";
 import { useState } from "react";
 import axios from "axios";
+import { TwitterFeed } from "./TwitterFeed";
 
 export function StudentsShow(props) {
   let { studentId } = useParams();
@@ -25,6 +26,7 @@ export function StudentsShow(props) {
       <p>{props.students[studentId - 1].resume_url}</p>
       <p>{props.students[studentId - 1].github_url}</p>
       <p>{props.students[studentId - 1].photo}</p>
+      <TwitterFeed />
     </div>
   );
 }
