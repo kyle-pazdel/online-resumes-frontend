@@ -6,6 +6,7 @@ import { Footer } from "./Footer";
 import { Home } from "./Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { StudentsShow } from "./StudentsShow";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const handleRequests = () => {
