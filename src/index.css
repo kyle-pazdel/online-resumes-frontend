@@ -2,6 +2,21 @@ html {
   scroll-behavior: smooth;
 }
 
-.indexLink {
+#indexLink {
+  display: inline-block;
+  border: 2px solid darkgray;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
 
+#indexLink:link {
+  text-decoration: none;
+}
+
+#indexLink:visited {
+  text-decoration: none;
+}
+
+#indexLink:hover {
+  text-decoration: underline;
 }

@@ -1,16 +1,15 @@
-import { Link } from "react-router-dom";
-import { Button } from "react-bootstrap";
+import { Stack, Button } from "react-bootstrap";
 
 export function StudentsIndex(props) {
   return (
-    <div id="resumes-index">
+    <div>
       <h1>Resumes List</h1>
       {props.students.map((student) => (
-        <div key={student.id}>
-          <Link id="indexLink" to={"/students/" + student.id}>
+        <Stack gap={2} className="col-md-5 mx-auto py-1" id="resumes-index" key={student.id}>
+          <Button variant="outline-secondary" id="indexLink" href={"/students/" + student.id}>
             {student.first_name} {student.last_name}
-          </Link>
-        </div>
+          </Button>
+        </Stack>
       ))}
     </div>
   );
