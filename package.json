@@ -15,7 +15,9 @@
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.4.3",
-    "react-router-dom": "^6.4.3"
+    "react-router-dom": "^6.4.3",
+    "react-twitter-embed": "^4.0.4",
+    "twitter": "^1.7.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.22",
